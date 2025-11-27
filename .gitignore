@@ -1,0 +1,41 @@
+# Dependencias
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js
+.next/
+out/
+build/
+dist/
+
+# VARIABLES DE ENTORNO - CRÍTICO
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+
+# Credenciales
+*.key
+*.pem
+secrets/
+credentials/
+
+# Logs
+*.log
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# Backups
+backups/
+*.backup
+
+# Misc
+.vercel
+.turbo
